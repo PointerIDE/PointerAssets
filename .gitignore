@@ -1,0 +1,17 @@
+# Large exports / working files (keep repo to committed assets only)
+*.psd~
+*.tmp
+*.temp
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Never commit credentials alongside assets by mistake
+.env
+.env.*
+*.pem
+secrets/
